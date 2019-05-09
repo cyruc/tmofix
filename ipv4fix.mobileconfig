@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>1</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string> b2b.tmobile.com</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.CD3D2399-5FD2-408C-ACB0-FD797A5A4CB3</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>CD3D2399-5FD2-408C-ACB0-FD797A5A4CB3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>IPv4 only confiugration</string>
+	<key>PayloadDisplayName</key>
+	<string>iPad IPv4 </string>
+	<key>PayloadIdentifier</key>
+	<string>TMUS IPv4</string>
+	<key>PayloadOrganization</key>
+	<string>T-Mobile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DBA9E207-6A75-4C84-8EE8-0756F89FBBDF</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2060-01-02T01:59:09Z</date>
+</dict>
+</plist>

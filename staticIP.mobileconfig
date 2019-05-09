@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>b2b.tmobile.com</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.46DC9647-35C3-4727-A347-6560482A4726</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>46DC9647-35C3-4727-A347-6560482A4726</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Revert to IPv4v6 and use b2b.tmobile.com as Data APN</string>
+	<key>PayloadDisplayName</key>
+	<string>TMUS IPv4v6 b2b</string>
+	<key>PayloadIdentifier</key>
+	<string>TMUS IPv4v6 b2b</string>
+	<key>PayloadOrganization</key>
+	<string>Apple</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6605F084-1620-4BE8-8E32-E47BEE1461E9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
