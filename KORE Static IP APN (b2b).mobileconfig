@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>*WARNING* Installing this profile will change your APN settings to b2b.tmobile.com</string>
+	</dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -10,38 +17,49 @@
 				<dict>
 					<key>AllowedProtocolMask</key>
 					<integer>3</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
 					<key>Name</key>
 					<string>b2b.tmobile.com</string>
 				</dict>
 			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>3</integer>
+				<key>Name</key>
+				<string>b2b.tmobile.com</string>
+			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures cellular data settings</string>
 			<key>PayloadDisplayName</key>
 			<string>Cellular</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.46DC9647-35C3-4727-A347-6560482A4726</string>
+			<string>com.apple.cellular.3B1B40E4-59EA-43B1-83D8-A1899E043E76</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>46DC9647-35C3-4727-A347-6560482A4726</string>
+			<string>3B1B40E4-59EA-43B1-83D8-A1899E043E76</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Revert to IPv4v6 and use b2b.tmobile.com as Data APN</string>
+	<string>Changes iOS APN to b2b APN</string>
 	<key>PayloadDisplayName</key>
-	<string>TMUS IPv4v6 b2b</string>
+	<string>KORE Static IP APN (b2b)</string>
 	<key>PayloadIdentifier</key>
-	<string>TMUS IPv4v6 b2b</string>
+	<string>KORE private static IP</string>
 	<key>PayloadOrganization</key>
-	<string>Apple</string>
+	<string>T-Mobile USA</string>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6605F084-1620-4BE8-8E32-E47BEE1461E9</string>
+	<string>8BDEC2F6-ABEA-44CD-8DAA-32FB3658360A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
