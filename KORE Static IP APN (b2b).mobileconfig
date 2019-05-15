@@ -37,11 +37,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Cellular</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.3AE09876-8C80-405B-BC06-77C64C1DB504</string>
+			<string>com.apple.cellular.3DBF4B3C-CB03-40CB-995E-031AA9A6E879</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>3AE09876-8C80-405B-BC06-77C64C1DB504</string>
+			<string>3DBF4B3C-CB03-40CB-995E-031AA9A6E879</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -55,11 +55,11 @@
 	<key>PayloadOrganization</key>
 	<string>T-Mobile USA</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>81125569-2D8D-450A-8866-D8227F3C8D9E</string>
+	<string>D507F941-C2B8-4C01-89E0-8DC71895962B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
